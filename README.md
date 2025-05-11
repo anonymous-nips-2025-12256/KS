@@ -24,19 +24,19 @@ $ mkdir -p build && cd build
 $ cmake .. && make -j
 ```
 
-### Building HSNW+KS2 Index (only once)
+### Build HNSW+KS2 (only once)
 
 ```bash
 $ bash run_XXX.sh
 ```
 
-### Run HNSW+KS2 Index
+### Run HNSW+KS2
 
 ```bash
 $ bash run_XXX.sh
 ```
 
-### Build and Run KS1 Index (only once)
+### Build and Run KS1 (only once)
 
 ```bash
 $ bash run_XXX.sh
