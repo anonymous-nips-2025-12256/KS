@@ -14,9 +14,8 @@ L=20       #level(KS2 parameter)
 dPath=./${name}/${name}_base.fvecs   #data path
 qPath=./${name}/${name}_query.fvecs  #query path
 tPath=./${name}/${name}_truth.ivecs        #groundtruth path
-vPath=./${name}/best_batch.bin        #projection vector path
 
 #----Indexing for the first execution and searching for the following executions---------
 
-./build/KS2 ${dPath} ${qPath} ${tPath} ${vPath} ${n} ${qn} ${d} ${k} ${efc} ${M} ${L}
+./build/KS2 ${dPath} ${qPath} ${tPath} ${n} ${qn} ${d} ${k} ${efc} ${M} ${L}
 
